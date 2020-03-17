@@ -61,7 +61,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-      Copyright All Rights Reserved © {new Date().getFullYear()}, 
+      Copyright All Rights Reserved © {new Date().getFullYear()}
       </footer>
     </div>
   )
