@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Machine and Man`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ayan Rafique`,
+      summary: `Machine learning enthusiast with a physics/engineering and music background`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Ruminations on deep learning, artificial creativity, and all things in between.`,
+    siteUrl: `https://ayanrafique.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ayanrafique`,
     },
   },
   plugins: [
