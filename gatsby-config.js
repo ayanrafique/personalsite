@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Machine and Man`,
+    title: `Tuning Machine's Mind`,
     author: {
       name: `Ayan Rafique`,
       summary: `Machine learning enthusiast with a physics/engineering and music background`,
