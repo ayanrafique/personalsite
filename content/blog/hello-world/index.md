@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
 ---
 
