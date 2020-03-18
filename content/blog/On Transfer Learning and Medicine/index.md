@@ -10,7 +10,7 @@ Transfer learning was stated by Andrew Ng in his NIPS 2016 tutorial to be key dr
 data.show_batch(rows=3, figsize=(7,6))
 ```
 
-![](C:\Users\Ayan\personalblogsite\content\blog\On Transfer Learning and Medicine\files.PNG)
+![files](./files.png)
 
 This dataset is a collection of thousands of labeled files of  chest x-rays. 
 
@@ -26,6 +26,6 @@ Here we use a method that was originally published in the 2015 paper [Cyclical L
 learn.fit_one_cycle(8)
 ```
 
-![](C:\Users\Ayan\personalblogsite\content\blog\On Transfer Learning and Medicine\error.PNG)
+![error](./error.png)
 
 implementing a method of tuning weights for the network, going over our data 8 epochs, or times, we go over an error rate of 0.036721, which means our model is over 6% accurate! Not bad!
