@@ -60,9 +60,9 @@ const Bio = () => {
         Written by <strong>{author.name}.</strong> <br />{author.summary}.
         {` `} <br />
         <a href={`https://twitter.com/${social.twitter}`}>
-          Follow me on Twitter!
+          Follow me on Twitter! 
         </a>
-        And <a href="https://github.com/ayanrafique">github!</a>
+         And <a href="https://github.com/ayanrafique">github!</a>
 
       </p>
     </div>
