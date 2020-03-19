@@ -15,7 +15,9 @@ import FaLinkedin from "react-icons/lib/fa/linkedin";
 // import react-custom-share components
 import { ShareButtonRectangle, ShareBlockStandard } from "react-custom-share";
 
-
+const BlogIndex = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout location={location} title={siteTitle}>
