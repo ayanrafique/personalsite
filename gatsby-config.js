@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: `https://ayanrafique.com/`,
     social: {
       twitter: `ayanrafique`,
-      github: 'https://github.com/ayanrafique/',
     },
   },
   plugins: [
