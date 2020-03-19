@@ -10,7 +10,7 @@ Transfer learning was stated by Andrew Ng in his NIPS 2016 tutorial to be key dr
 data.show_batch(rows=3, figsize=(7,6))
 ```
 
-![files](./files.png)
+![files](./files.PNG)
 
 This dataset is a collection of thousands of labeled files of  chest x-rays. 
 
@@ -27,7 +27,7 @@ Here we use a method that was originally published in the 2015 paper [Cyclical L
 learn.fit_one_cycle(8)
 ```
 
-![error](./error.png)
+![error](./error.PNG)
 
 Implementing a method of tuning weights for the network, cycling over our data 8 epochs times, we get an error rate of 0.036721, which means our model is over 96% accurate! Not bad! Note that this was done without unfreezing the model and actually applying the learning rate for minimal loss. The default learning rate of 0.003 of the fit_one_cycle method gives appreciable results for this use case, while maintaining a steady lowering of the error rate through each cycling of the data.
 
