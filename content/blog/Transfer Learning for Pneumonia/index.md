@@ -4,7 +4,7 @@ date: "2020-03-17"
 description: "Imagenet Transfer Learning using Fast.Ai on a Kaggle Dataset"
 ---
 
-Transfer learning was stated by Andrew Ng in his NIPS 2016 tutorial to be key driver in the success of industrial applications. It can be shown that even in the handling of medical imaging data, that transfer learning can greatly reduce the costs of training over a dataset compared to the costs of training the same model from scratch. We will load up a simple usage given by Jeremy Howard of fast.ai, of the resnet-50 architecture, trained over the imagenet dataset. This model therefore has a, if you will, a sense of what the material world looks like. The pneumonia dataset we will be using is the kaggle dataset paultimothymooney/chest-xray-pneumonia. 
+Transfer learning was stated by Andrew Ng in his NIPS 2016 tutorial to be a key driver in the success of industrial applications. It can be shown that even in the handling of medical imaging data, that transfer learning can greatly reduce the costs of training over a dataset compared to the costs of training the same model from scratch. We will load up a simple usage given by Jeremy Howard of fast.ai, of the resnet-50 architecture, trained over the imagenet dataset. This model therefore has a, if you will, a sense of what the material world looks like. The pneumonia dataset we will be using is the kaggle dataset paultimothymooney/chest-xray-pneumonia. 
 
 ```python
 data.show_batch(rows=3, figsize=(7,6))
