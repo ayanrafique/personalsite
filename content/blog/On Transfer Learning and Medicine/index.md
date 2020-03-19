@@ -28,4 +28,4 @@ learn.fit_one_cycle(8)
 
 ![error](./error.PNG)
 
-implementing a method of tuning weights for the network, going over our data 8 epochs, or times, we go over an error rate of 0.036721, which means our model is over 6% accurate! Not bad!
+Implementing a method of tuning weights for the network, going over our data 8 epochs, or times, we go over an error rate of 0.036721, which means our model is over 6% accurate! Not bad!
