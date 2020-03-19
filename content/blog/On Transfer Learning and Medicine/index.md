@@ -19,6 +19,7 @@ learn = cnn_learner(data, models.resnet50, metrics=error_rate)
 learn.lr_find()
 learn.recorder.plot()
 ```
+![files](./lrfind.png)
 
 Here we use a method that was originally published in the 2015 paper [Cyclical Learning Rates for Training Neural Networks](http://arxiv.org/abs/1506.01186). By simply increasing the learning rate incrementally from a small value and only stopping once the loss started decreasing, you can plot the learning rates. By doing this, one can find the optimal learning rate amongst the plot. 
 
@@ -28,4 +29,6 @@ learn.fit_one_cycle(8)
 
 ![error](./error.png)
 
-Implementing a method of tuning weights for the network, going over our data 8 epochs, or times, we go over an error rate of 0.036721, which means our model is over 6% accurate! Not bad!
+Implementing a method of tuning weights for the network, going over our data 8 epochs, or times, we go over an error rate of 0.036721, which means our model is over 96% accurate! Not bad! Note that this was done without unfreezing the model and actually applying the learning rate for minimal loss. The default learning rate of 0.003 of the fit_one_cycle method gives appreciable results for this use case, while maintaining a steady lowering of the error rate through each cycling of the data.
+
+You can play around with this experimentation with the [google colab file](https://github.com/ayanrafique/FastAiFun/blob/master/Pneumonia_detection.ipynb). You must download and upload your own kaggle.json file to use the code as is, which can be aquired after making a kaggle account.
