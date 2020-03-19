@@ -5,15 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-// import icons
-import FaTwitter from "react-icons/lib/fa/twitter";
-import FaFacebook from "react-icons/lib/fa/facebook";
-import FaGooglePlus from "react-icons/lib/fa/google-plus";
-import FaEnvelope from "react-icons/lib/fa/envelope";
-import FaPinterest from "react-icons/lib/fa/pinterest";
-import FaLinkedin from "react-icons/lib/fa/linkedin";
-// import react-custom-share components
-import { ShareButtonRectangle, ShareBlockStandard } from "react-custom-share";
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
